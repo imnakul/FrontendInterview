@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1.0"
+      />
+      <title>CSS Practice Page</title>
+      <link
+         rel="stylesheet"
+         href="sample.css"
+      />
+      <!-- <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+         }
+         header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+         }
+         section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+         }
+         footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+         }
+         li {
+            list-style-type: square;
+         }
+      </style> -->
+   </head>
+   <body>
+      <header>
+         <h1
+            class="custom"
+            style="color: blue; text-align: center; font-weight: bold; background-color: aqua"
+         >
+            Welcome to CSS Learning
+         </h1>
+
+         <p>This is a simple HTML page to practice CSS on.</p>
+      </header>
+
+      <section class="about">
+         <h2 class="custom-text">About Me</h2>
+         <p>I am learning HTML and CSS to build awesome websites!</p>
+         <img
+            src="https://via.placeholder.com/150"
+            alt="Placeholder image"
+         />
+      </section>
+
+      <section class="skills">
+         <h2>My Skills</h2>
+         <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+         </ul>
+      </section>
+
+      <div>
+         <p>Direct child</p>
+
+         <section>
+            <p>Nested child</p>
+         </section>
+      </div>
+
+      <section class="contact">
+         <h2>Contact Me</h2>
+         <form>
+            <label for="name">Name:</label><br />
+            <input
+               type="text"
+               id="name"
+               name="name"
+            /><br /><br />
+
+            <label for="email">Email:</label><br />
+            <input
+               type="email"
+               id="email"
+               name="email"
+            /><br /><br />
+
+            <input
+               type="submit"
+               value="Submit"
+               class="transition"
+            />
+         </form>
+      </section>
+
+      <p class="fancy">hello</p>
+
+      <footer>
+         <p>&copy; 2025 My Website</p>
+      </footer>
+   </body>
+</html>

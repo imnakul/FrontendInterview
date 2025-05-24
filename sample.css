@@ -1,0 +1,87 @@
+/* Clean base style */
+/* *,
+*::before,
+*::after {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body,
+html {
+   width: 100%;
+   height: 100%;
+} */
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+header {
+   background-color: #333;
+   color: white;
+   padding: 10px 0;
+}
+
+.custom {
+   /* padding: 100px 10px 100px 10px; */
+   /* padding: 100px 10px; */
+   padding-top: 2rem;
+}
+
+section {
+   margin: 20px;
+   padding: 20px;
+   background-color: green;
+
+   border-radius: 20px;
+   border: 5px solid red;
+   z-index: 10;
+}
+
+.custom-text {
+   z-index: 0;
+}
+
+footer {
+   text-align: center;
+   padding: 10px 0;
+   background-color: #333;
+   color: white;
+}
+li {
+   list-style-type: square;
+}
+
+div p {
+   color: red;
+}
+
+div > p {
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.fancy {
+   font-style: italic;
+   color: blue;
+}
+
+.fancy::before {
+   content: 'yes';
+}
+.fancy::after {
+   content: 'no';
+}
+
+.transition {
+   transition: all 1s ease-in-out;
+   animation: bounce 0.2s infinite;
+   cursor: not-allowed;
+}
+
+.transition:hover {
+   background-color: yellow;
+}
