@@ -1,0 +1,24 @@
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+html,
+body {
+   width: 100%;
+   height: 100%;
+}
+
+:root {
+   --primary-color: #12ff75;
+   --secondary-color: #053f1d;
+}
+
+.contain {
+   border: 2px solid var(--primary-color);
+   border-radius: 8px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 16px;
+}
