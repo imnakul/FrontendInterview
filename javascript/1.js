@@ -7,3 +7,5 @@
 // }
 
 // hello()
+console.log('hello\r')
+console.log('Hello\rWorld') // Output: World

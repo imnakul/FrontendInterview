@@ -4,11 +4,81 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>JavaScript Practice Page</title>
-        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                margin: 0;
+                padding: 20px;
+            }
+            @media (max-width: 600px) {
+                
+                .jsbtn {
+                    background-color: blueviolet;
+                    color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 40px;
+                cursor: pointer;
+                border-radius: 5px;
+                }
+            } 
+             @media (min-width: 601px) {
+                
+                .jsbtn {
+                    background-color: #007bff;
+                    color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 40px;
+                cursor: pointer;
+                border-radius: 5px;
+                }
+            }
+            container {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                height: 80vh;
+            }
+            /* .jsbtn {
+                background-color: #007bff;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                margin: 40px;
+                cursor: pointer;
+                border-radius: 5px;
+            } */
+            .jsbtn:hover {
+                transition-duration: 800ms;
+                background-color: #bdbf3f;
+            }
+
+            /* #jsbtn1 {
+                background-color: #28a745;
+                transition-duration: 500ms;      
+            }
+
+            #jsbtn3 {                               
+               background-color: #d80de2;              
+                transition-duration: 800ms;
+            } */
+
+        </style>
     </head>
     <body>
-        
-    
+        <container>
+            <button
+                class="jsbtn" id="jsbtn1">Scale Button  </button>
+                <button
+                class="jsbtn"> Button  </button>
+                <button
+                class="jsbtn" id="jsbtn3">Rotate Button  </button>
+        </container>
+
         <script src="1.js"></script>
             
         </script>
