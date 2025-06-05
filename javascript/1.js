@@ -1,16 +1,27 @@
-// console.log(a)
+console.log('Hello world')
+console.log('--------------------')
 
-// var a = 10
-// function hello() {
-//    console.log('hello world')
-//    console.log(a)
-// }
+console.log(window)
+// window.console.log('Hello')
 
-// hello()
-console.log('hello\r')
-console.log('Hello\rWorld') // Output: World
+console.dir(window)
 
-// If else Conditional Statement
-let a = prompt('Entere a value')
-if (a % 5 === 0) console.log('its a multiple of 5')
-else console.log('Its not')
+// console.dir(document.body)
+
+// console.log('--------------------')
+// console.log(document)
+// console.dir(document)
+
+let button = document.getElementById('changeTextBtn')
+// let button = document.getElementById('changeTextBtn').innerText
+console.log(button)
+console.dir(button)
+
+// console.log(document.querySelector('#changeTextBtn'))
+
+// document.getElementById('changeTextBtn').addEventListener('click', () => {
+//    document.getElementById('content').innerText = 'Clicked'
+// })
+
+// let hid = document.getElementById('hidden')
+// console.log(hid)
